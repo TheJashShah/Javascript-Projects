@@ -1,4 +1,4 @@
-const URL = "https://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey=a29dba323d2c4e158d2d46e4033529a1"
+const URL = "https://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey={YOUR_API_KEY}"
 const mainDiv = document.getElementById("main")
 let data;
 let newsList;
