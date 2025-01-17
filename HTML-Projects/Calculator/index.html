@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+
+    <style>
+        body{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        button{
+            width: 60px;
+            height: 60px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            border-radius: 2px;
+            border: 1px solid black;
+        }
+
+        input{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            border-radius: 1px solid black;
+            width: 240px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Calculator!</h1>
+
+    <input type="text" id="input">
+    <hr>
+    <table>
+        <tr>
+            <button id="btn">9</button>
+            <button id="btn">8</button>
+            <button id="btn">7</button>
+            <button id="btn">+</button>
+        </tr>
+        <hr>
+        <tr>
+            <button id="btn">6</button>
+            <button id="btn">5</button>
+            <button id="btn">4</button>
+            <button id="btn">-</button>
+        </tr>
+        <hr>
+        <tr>
+            <button id="btn">3</button>
+            <button id="btn">2</button>
+            <button id="btn">1</button>
+            <button id="btn">*</button>
+        </tr>
+        <hr>
+        <tr>
+            <button id="btn">/</button>
+            <button id="btn">.</button>
+            <button id="btn">=</button>
+            <button id="btn">C</button>
+            <button id="btn">BC</button>
+        </tr>
+    </table>
+
+    <script src="index.js"></script>
+</body>
+</html>

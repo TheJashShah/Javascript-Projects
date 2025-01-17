@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hangman</title>
+
+    <style>
+        body{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        input{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        button{
+            width: 100px;
+            height: 30px;
+            border-radius: 5px;
+            border: 1px solid black;
+            margin: 10px;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Hangman!</h1>
+    <h2 id="word">Press Play to Play!</h2>
+
+    <div id="imageDiv"></div>
+    <input type="text" placeholder="Enter your Guess..." id="input">
+    <button id="guess" onclick="GuessClicked()">Guess</button>
+    <h2 id="LiveLabel">Lives: 7</h2>
+    <button id="play" onclick="PlayClicked()">Play!</button>
+    <h2 id="result"></h2>
+
+    <script src="index.js"></script>
+</body>
+</html>

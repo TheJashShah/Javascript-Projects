@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock-Paper-Scissors</title>
+
+    <style>
+
+        body{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        button{
+            width: 100px;
+            height: 40px;
+            border-radius: 5px;
+            border: 1px solid black;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Rock, Paper, Scissors!</h1>
+
+    <button onclick="BtnClicked('Rock')">Rock</button>
+    <button onclick="BtnClicked('Paper')">Paper</button>
+    <button onclick="BtnClicked('Scissors')">Scissors</button>
+
+    <h2 id="player">Player's Choice:</h2>
+    <h2 id="comp">Computer's Choice:</h2>
+    <h2 id="result">Result:</h2>
+
+    <h3 id="playerWin">Player Wins: 0</h3>
+    <h3 id="compWin">Computer Wins: 0</h3>
+    <h3 id="draw">Draws: 0</h3>
+
+    <script src="index.js"></script>
+</body>
+</html>

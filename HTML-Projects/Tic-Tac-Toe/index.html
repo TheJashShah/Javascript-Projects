@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-tac-Toe</title>
+
+    <style>
+
+        body{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        #cell{
+            width: 75px;
+            height: 75px;
+            border-radius: 5px;
+            border: 2px solid black;
+            margin: 5px;
+        }
+
+        button{
+            width: 100px;
+            height: 40px;
+            border: 2px solid black;
+            border-radius: 5px;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Tic-Tac-Toe!</h1>
+
+    <h2 id="label">Player With X Plays:</h2>
+
+    <table>
+        <tr>
+            <button id="cell" onclick="CellClicked(1)"></button>
+            <button id="cell" onclick="CellClicked(2)"></button>
+            <button id="cell" onclick="CellClicked(3)"></button>
+        </tr>
+        <hr>
+        <tr>
+            <button id="cell" onclick="CellClicked(4)"></button>
+            <button id="cell" onclick="CellClicked(5)"></button>
+            <button id="cell" onclick="CellClicked(6)"></button>
+        </tr>
+        <hr>
+        <tr>
+            <button id="cell" onclick="CellClicked(7)"></button>
+            <button id="cell" onclick="CellClicked(8)"></button>
+            <button id="cell" onclick="CellClicked(9)"></button>
+        </tr>
+    </table>
+
+    <h2 id="result">Result: </h2>
+
+    <button id="reset" onclick="Reset()">Reset</button>
+
+    <script src="index.js"></script>
+</body>
+</html>
