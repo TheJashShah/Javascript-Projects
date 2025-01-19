@@ -1,0 +1,15 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+img{
+    width: 15%;
+    height: 15%;
+    border-radius: 10%;
+}
+
+#movie{
+    width: 50%;
+    height: 50%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
