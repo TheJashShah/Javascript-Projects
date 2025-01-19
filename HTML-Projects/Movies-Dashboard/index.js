@@ -34,7 +34,7 @@ async function API(str){
         const options = {
             method: 'GET',
             headers: {
-                'x-rapidapi-key': '0befa5bc76msh84f8cda54f53525p13c21bjsn79eb673b07bf',
+                'x-rapidapi-key': '{YOUR_API_KEY}',
                 'x-rapidapi-host': 'imdb236.p.rapidapi.com'
             }
         };

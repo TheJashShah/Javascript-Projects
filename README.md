@@ -10,7 +10,8 @@
    1. Calculator
    2. Counter
    3. Hangman
-   4. News-API
-   5. Rock-Paper-Scissors
-   6. Tic-Tac-Toe
-   7. To-Do-List
+   4. Movies-Dashboard
+   5. News-API
+   6. Rock-Paper-Scissors
+   7. Tic-Tac-Toe
+   8. To-Do-List
