@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hand-Cricket</title>
+
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: bisque;
+        }
+
+        #btn{
+            width: 35px;
+            height: 35px;
+            border-radius: 10%;
+            border: 1px solid black;
+            background-color: rgb(219, 174, 108);
+        }
+    </style>
+</head>
+<body>
+    <h2>Hand-Cricket!</h2>
+
+    <h2 id="label">The Player Bats First.</h2>
+    <button id="btn">1</button>
+    <button id="btn">2</button>
+    <button id="btn">3</button>
+    <button id="btn">4</button>
+    <button id="btn">5</button>
+    <button id="btn">6</button>
+    <hr>
+    <h2 id="player-label">Player Played: </h2>
+    <h2 id="computer-label">Computer Played: </h2>
+    <hr>
+    <h2 id="score">Score: 0</h2>
+    <hr>
+    <h2 id="out-label"></h2>
+    <button onclick="Reset()">Reset</button>
+
+    <script src="index.js"></script>
+</body> 
+</html>
