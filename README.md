@@ -21,4 +21,4 @@
 # Quiz-App
  A Quiz App where you can build your own customized quiz, selecting the topic and the number of questions.
  This is a complete project where i've also paid attention to CSS.
- Live Website Link -> [text](https://wisdomcustomquiz.statichost.app)
+ Live Website Link -> [Try my Quiz App!](https://wisdomcustomquiz.statichost.app)
