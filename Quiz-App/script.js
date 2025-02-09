@@ -355,8 +355,3 @@ function StartClicked(){
 
     FormDiv.appendChild(Create);
 }
-
-/*
-STYLE
-GET CORRECT AND INCORRECT
-*/
