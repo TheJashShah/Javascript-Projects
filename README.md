@@ -17,3 +17,8 @@
    8. Rock-Paper-Scissors
    9. Tic-Tac-Toe
    10. To-Do-List
+
+# Quiz-App
+ A Quiz App where you can build your own customized quiz, selecting the topic and the number of questions.
+ This is a complete project where i've also paid attention to CSS.
+ Live Website Link -> [text](https://wisdomcustomquiz.statichost.app)
