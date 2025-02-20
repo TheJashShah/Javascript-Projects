@@ -15,8 +15,9 @@
    6. Movies-Dashboard
    7. News-API
    8. Rock-Paper-Scissors
-   9. Tic-Tac-Toe
-   10. To-Do-List
+   9. Sudoku
+   10. Tic-Tac-Toe
+   11. To-Do-List
 
 # Quiz-App
  A Quiz App where you can build your own customized quiz, selecting the topic and the number of questions.
