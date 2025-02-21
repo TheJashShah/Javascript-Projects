@@ -2,6 +2,34 @@ const TableDiv = document.getElementById("table");
 const PlayBtn = document.getElementById("play");
 const Result = document.getElementById("res");
 
+function GenerateRandomSudoku(){
+
+    let grid = new Array(9);
+
+    for(let i = 0; i < 9; i++){
+        grid[i] = (new Array(9));
+    }
+
+    for(let i = 0; i < 9; i++){
+        for(let j = 0; j < 9; j++){
+            grid[i][j] = 0;
+        }
+    }
+
+    let _ = ReturnSolvedGrid(grid, 0, 0);
+
+    for(let i = 0; i < 75; i++){
+        let row = Math.floor(Math.random() * 9);
+        let col = Math.floor(Math.random() * 9);
+
+        if(grid[row][col] !== 0){
+            grid[row][col] = 0;
+        }
+    }
+
+    return grid;
+}
+
 function MakeGrid(){
 
     const Table = document.createElement("table");
@@ -150,15 +178,17 @@ function Play(){
 
     TableDiv.innerHTML = "";
 
-    let grid =  [[ 3, 0, 6, 5, 0, 8, 4, 0, 0 ],
-                 [ 5, 2, 0, 0, 0, 0, 0, 0, 0 ],
-                 [ 0, 8, 7, 0, 0, 0, 0, 3, 1 ],
-                 [ 0, 0, 3, 0, 1, 0, 0, 8, 0 ],
-                 [ 9, 0, 0, 8, 6, 3, 0, 0, 5 ],
-                 [ 0, 5, 0, 0, 9, 0, 6, 0, 0 ],
-                 [ 1, 3, 0, 0, 0, 0, 2, 5, 0 ],
-                 [ 0, 0, 0, 0, 0, 0, 0, 7, 4 ],
-                 [ 0, 0, 5, 2, 0, 6, 3, 0, 0 ]];
+    // let grid =  [[ 3, 0, 6, 5, 0, 8, 4, 0, 0 ],
+    //              [ 5, 2, 0, 0, 0, 0, 0, 0, 0 ],
+    //              [ 0, 8, 7, 0, 0, 0, 0, 3, 1 ],
+    //              [ 0, 0, 3, 0, 1, 0, 0, 8, 0 ],
+    //              [ 9, 0, 0, 8, 6, 3, 0, 0, 5 ],
+    //              [ 0, 5, 0, 0, 9, 0, 6, 0, 0 ],
+    //              [ 1, 3, 0, 0, 0, 0, 2, 5, 0 ],
+    //              [ 0, 0, 0, 0, 0, 0, 0, 7, 4 ],
+    //              [ 0, 0, 5, 2, 0, 6, 3, 0, 0 ]];
+
+    let grid = GenerateRandomSudoku();
 
     let solved = JSON.parse(JSON.stringify(grid));
  
